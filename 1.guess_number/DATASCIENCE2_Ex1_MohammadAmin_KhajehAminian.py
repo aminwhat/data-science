@@ -78,7 +78,7 @@ class MyApp:
 
     def newGame(self):
         self.randomNumber = random.randrange(1, 101)
-        self.turnsToPlay = 4
+        self.turnsToPlay = 5
         print(self.randomNumber)
         self.calcBtn.config(command=self.calcBtnOnPressed)
         self.lblStatusVar.set(
